@@ -452,7 +452,6 @@ typedef struct binary_tree_s binary_tree_t;
 <li>If <code>tree</code> is <code>NULL</code>, your function must return <code>0</code></li>
 </ul>
 
-
 <h4 class="task">
     17. Sibling ✅
       <span class="alert alert-warning mandatory-optional">
@@ -478,7 +477,6 @@ typedef struct binary_tree_s binary_tree_t;
 <li>If <code>node</code> has no uncle, return <code>NULL</code></li>
 </ul>
 
-
 <h4 class="task">
     19. Lowest common ancestor ✅
       <span class="alert alert-info mandatory-optional">
@@ -503,7 +501,6 @@ typedef struct binary_tree_s binary_tree_t;
 <li>Where <code>tree</code> is a pointer to the root node of the tree to traverse</li>
 <li>And <code>func</code> is a pointer to a function to call for each node. The value in the node must be passed as a parameter to this function.</li>
 </ul>
-
 
 <h4 class="task"> 
     21. Is complete ✅
