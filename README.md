@@ -1,4 +1,4 @@
-# 0x1D. C - Binary trees
+# 0x1D. C - Binary trees 🌳
 ![link](https://i.imgur.com/4Az1kkT.jpeg)
 
 <html>
