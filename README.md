@@ -240,6 +240,304 @@ typedef struct binary_tree_s binary_tree_t;
   <p>
    This function is used only for visualization purposes. You don’t have to push it to your repo. It may not be used during the correction
   </p>
+  ### Project BreakDown
+<h4 class="task">
+    0. New node
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that creates a binary tree node</p><ul>
+<li>Prototype: <code>binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);</code></li>
+<li>Where <code>parent</code> is a pointer to the parent node of the node to create</li>
+<li>And <code>value</code> is the value to put in the new node</li>
+<li>When created, a node does not have any child</li>
+<li>Your function must return a pointer to the new node, or <code>NULL</code> on failure</li>
+</ul>
+
+
+<h4 class="task">
+    1. Insert left
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that inserts a node as the left-child of another node</p><ul>
+<li>Prototype: <code>binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);</code></li>
+<li>Where <code>parent</code> is a pointer to the node to insert the left-child in</li>
+<li>And <code>value</code> is the value to store in the new node</li>
+<li>Your function must return a pointer to the created node, or <code>NULL</code> on failure</li>
+<li>If <code>parent</code> already has a left-child, the new node must take its place, and the old left-child must be set as the left-child of the new node.</li>
+</ul>
+
+
+<h4 class="task">
+    2. Insert right
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that inserts a node as the right-child of another node</p><ul>
+<li>Prototype: <code>binary_tree_t *binary_tree_insert_right(binary_tree_t *parent, int value);</code></li>
+<li>Where <code>parent</code> is a pointer to the node to insert the right-child in</li>
+<li>And <code>value</code> is the value to store in the new node</li>
+<li>Your function must return a pointer to the created node, or <code>NULL</code> on failure</li>
+<li>If <code>parent</code> already has a right-child, the new node must take its place, and the old right-child must be set as the right-child of the new node.</li>
+</ul>
+
+
+<h4 class="task">
+    3. Delete
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that deletes an entire binary tree</p><ul>
+<li>Prototype: <code>void binary_tree_delete(binary_tree_t *tree);</code></li>
+<li>Where <code>tree</code> is a pointer to the root node of the tree to delete</li>
+</ul>
+
+
+<h4 class="task">
+    4. Is leaf
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that checks if a node is a leaf</p><ul>
+<li>Prototype: <code>int binary_tree_is_leaf(const binary_tree_t *node);</code></li>
+<li>Where <code>node</code> is a pointer to the node to check</li>
+<li>Your function must return <code>1</code> if <code>node</code> is a leaf, and <code>0</code> otherwise</li>
+<li>If <code>node</code> is <code>NULL</code>, return <code>0</code></li>
+</ul>
+
+
+<h4 class="task">
+    5. Is root
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that checks if a given node is a root</p><ul>
+<li>Prototype: <code>int binary_tree_is_root(const binary_tree_t *node);</code></li>
+<li>Where <code>node</code> is a pointer to the node to check</li>
+<li>Your function must return <code>1</code> if <code>node</code> is a root, and <code>0</code> otherwise</li>
+<li>If <code>node</code> is <code>NULL</code>, return <code>0</code></li>
+</ul>
+
+
+<h4 class="task">
+    6. Pre-order traversal
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that goes through a binary tree using pre-order traversal</p><ul>
+<li>Prototype: <code>void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));</code></li>
+<li>Where <code>tree</code> is a pointer to the root node of the tree to traverse</li>
+<li>And <code>func</code> is a pointer to a function to call for each node. The value in the node must be passed as a parameter to this function.</li>
+</ul>
+
+
+<h4 class="task">
+    7. In-order traversal
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that goes through a binary tree using in-order traversal</p><ul>
+<li>Prototype: <code>void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));</code></li>
+<li>Where <code>tree</code> is a pointer to the root node of the tree to traverse</li>
+<li>And <code>func</code> is a pointer to a function to call for each node. The value in the node must be passed as a parameter to this function.</li>
+</ul>
+
+
+<h4 class="task">
+    8. Post-order traversal
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that goes through a binary tree using post-order traversal</p><ul>
+<li>Prototype: <code>void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));</code></li>
+<li>Where <code>tree</code> is a pointer to the root node of the tree to traverse</li>
+<li>And <code>func</code> is a pointer to a function to call for each node. The value in the node must be passed as a parameter to this function.</li>
+</ul>
+
+
+<h4 class="task">
+    9. Height
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that measures the height of a binary tree</p><ul>
+<li>Prototype: <code>size_t binary_tree_height(const binary_tree_t *tree);</code></li>
+<li>Where <code>tree</code> is a pointer to the root node of the tree to measure the height of</li>
+<li>If <code>tree</code> is <code>NULL</code>, your function must return <code>0</code></li>
+</ul>
+
+
+<h4 class="task">
+    10. Depth
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that measures the depth of a node in a binary tree</p><ul>
+<li>Prototype: <code>size_t binary_tree_depth(const binary_tree_t *node);</code></li>
+<li>Where <code>tree</code> is a pointer to the node to measure the depth of</li>
+<li>If <code>node</code> is <code>NULL</code>, your function must return <code>0</code></li>
+</ul>
+
+
+<h4 class="task">
+    11. Size
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that measures the size of a binary tree</p><ul>
+<li>Prototype: <code>size_t binary_tree_size(const binary_tree_t *tree);</code></li>
+<li>Where <code>tree</code> is a pointer to the root node of the tree to measure the size of</li>
+</ul>
+
+
+<h4 class="task">
+    12. Leaves
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that counts the leaves in a binary tree</p><ul>
+<li>Prototype: <code>size_t binary_tree_leaves(const binary_tree_t *tree);</code></li>
+<li>Where <code>tree</code> is a pointer to the root node of the tree to count the leaves in</li>
+<li>A <code>NULL</code> pointer is not a leaf</li>
+</ul>
+
+
+<h4 class="task">
+    13. Nodes
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that counts the nodes with at least 1 child in a binary tree</p><ul>
+<li>Prototype: <code>size_t binary_tree_nodes(const binary_tree_t *tree);</code></li>
+<li>Where <code>tree</code> is a pointer to the root node of the tree to count the nodes in</li>
+<li>A <code>NULL</code> pointer is not a node</li>
+</ul>
+
+
+<h4 class="task">
+    14. Balance factor
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that measures the balance factor of a binary tree</p><ul>
+<li>Prototype: <code>int binary_tree_balance(const binary_tree_t *tree);</code></li>
+<li>Where <code>tree</code> is a pointer to the root node of the tree to measure the balance factor of</li>
+<li>If <code>tree</code> is <code>NULL</code>, return <code>0</code></li>
+</ul>
+
+
+<h4 class="task">
+    15. Is full
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that checks if a binary tree is full</p><ul>
+<li>Prototype: <code>int binary_tree_is_full(const binary_tree_t *tree);</code></li>
+<li>Where <code>tree</code> is a pointer to the root node of the tree to check</li>
+<li>If <code>tree</code> is <code>NULL</code>, your function must return <code>0</code></li>
+</ul>
+
+
+<h4 class="task">
+    16. Is perfect
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that checks if a binary tree is perfect</p><ul>
+<li>Prototype: <code>int binary_tree_is_perfect(const binary_tree_t *tree);</code></li>
+<li>Where <code>tree</code> is a pointer to the root node of the tree to check</li>
+<li>If <code>tree</code> is <code>NULL</code>, your function must return <code>0</code></li>
+</ul>
+
+
+<h4 class="task">
+    17. Sibling
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that finds the sibling of a node</p><ul>
+<li>Prototype: <code>binary_tree_t *binary_tree_sibling(binary_tree_t *node);</code></li>
+<li>Where <code>node</code> is a pointer to the node to find the sibling of</li>
+<li>Your function must return a pointer to the sibling node</li>
+<li>If <code>node</code> has no sibling, return <code>NULL</code></li>
+</ul>
+
+
+<h4 class="task">
+    18. Uncle
+      <span class="alert alert-warning mandatory-optional">
+        mandatory
+      </span>
+</h4><p>Write a function that finds the uncle of a node</p><ul>
+<li>Prototype: <code>binary_tree_t *binary_tree_uncle(binary_tree_t *node);</code></li>
+<li>Where <code>node</code> is a pointer to the node to find the uncle of</li>
+<li>Your function must return a pointer to the uncle node</li>
+<li>If <code>node</code> has no uncle, return <code>NULL</code></li>
+</ul>
+
+
+<h4 class="task">
+    19. Lowest common ancestor
+      <span class="alert alert-info mandatory-optional">
+        #advanced
+      </span>
+</h4><p>Write a function that finds the lowest common ancestor of two nodes</p><ul>
+<li>Prototype: <code>binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second);</code></li>
+<li>Where <code>first</code> is a pointer to the first node</li>
+<li>And <code>second</code> is a pointer to the second node</li>
+<li>Your function must return a pointer to the lowest common ancestor node of the two given nodes</li>
+<li>If no common ancestor was found, your function must return <code>NULL</code></li>
+</ul>
+
+
+<h4 class="task">
+    20. Level-order traversal
+      <span class="alert alert-info mandatory-optional">
+        #advanced
+      </span>
+</h4><p>Write a function that goes through a binary tree using level-order traversal</p><ul>
+<li>Prototype: <code>void binary_tree_levelorder(const binary_tree_t *tree, void (*func)(int));</code></li>
+<li>Where <code>tree</code> is a pointer to the root node of the tree to traverse</li>
+<li>And <code>func</code> is a pointer to a function to call for each node. The value in the node must be passed as a parameter to this function.</li>
+</ul>
+
+
+<h4 class="task">
+    21. Is complete
+      <span class="alert alert-info mandatory-optional">
+        #advanced
+      </span>
+</h4><p>Write a function that checks if a binary tree is complete</p><ul>
+<li>Prototype: <code>int binary_tree_is_complete(const binary_tree_t *tree);</code></li>
+<li>Where <code>tree</code> is a pointer to the root node of the tree to check</li>
+<li>If <code>tree</code> is <code>NULL</code>, your function must return <code>0</code></li>
+</ul>
+
+
+<h4 class="task">
+    22. Rotate left
+      <span class="alert alert-info mandatory-optional">
+        #advanced
+      </span>
+</h4><p>Write a function that performs a left-rotation on a binary tree</p><ul>
+<li>Prototype: <code>binary_tree_t *binary_tree_rotate_left(binary_tree_t *tree);</code></li>
+<li>Where <code>tree</code> is a pointer to the root node of the tree to rotate</li>
+<li>Your function must return a pointer to the new root node of the tree once rotated</li>
+</ul>
+
+
+<h4 class="task">
+    23. Rotate right
+      <span class="alert alert-info mandatory-optional">
+        #advanced
+      </span>
+</h4><p>Write a function that performs a right-rotation on a binary tree</p><ul>
+<li>Prototype: <code>binary_tree_t *binary_tree_rotate_right(binary_tree_t *tree);</code></li>
+<li>Where <code>tree</code> is a pointer to the root node of the tree to rotate</li>
+<li>Your function must return a pointer to the new root node of the tree once rotated</li>
+</ul>
+
  </div>
 </div>
 
