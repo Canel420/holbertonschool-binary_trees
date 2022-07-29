@@ -1,4 +1,5 @@
 # 0x1D. C - Binary trees
+![link](https://i.imgur.com/4Az1kkT.jpeg)
 
 <html>
 <div class="panel panel-default" id="project-description">
@@ -256,7 +257,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    1. Insert left
+    1. Insert left ✅
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -270,7 +271,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    2. Insert right
+    2. Insert right ✅
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -284,7 +285,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    3. Delete
+    3. Delete ✅
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -295,7 +296,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    4. Is leaf
+    4. Is leaf ✅
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -308,7 +309,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    5. Is root
+    5. Is root ✅
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -321,7 +322,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    6. Pre-order traversal
+    6. Pre-order traversal ✅
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -333,7 +334,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    7. In-order traversal
+    7. In-order traversal ✅
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -345,7 +346,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    8. Post-order traversal
+    8. Post-order traversal ✅
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -357,7 +358,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    9. Height
+    9. Height ✅
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -369,7 +370,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    10. Depth
+    10. Depth ✅
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -381,7 +382,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    11. Size
+    11. Size ✅
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -392,7 +393,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    12. Leaves
+    12. Leaves ✅
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -404,7 +405,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    13. Nodes
+    13. Nodes ✅
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -416,7 +417,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    14. Balance factor
+    14. Balance factor ✅
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -440,7 +441,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    16. Is perfect
+    16. Is perfect ✅
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -452,7 +453,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    17. Sibling
+    17. Sibling ✅
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -465,7 +466,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    18. Uncle
+    18. Uncle ✅
       <span class="alert alert-warning mandatory-optional">
         mandatory
       </span>
@@ -478,7 +479,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    19. Lowest common ancestor
+    19. Lowest common ancestor ✅
       <span class="alert alert-info mandatory-optional">
         #advanced
       </span>
@@ -492,7 +493,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    20. Level-order traversal
+    20. Level-order traversal ✅
       <span class="alert alert-info mandatory-optional">
         #advanced
       </span>
@@ -503,8 +504,8 @@ typedef struct binary_tree_s binary_tree_t;
 </ul>
 
 
-<h4 class="task">
-    21. Is complete
+<h4 class="task"> 
+    21. Is complete ✅
       <span class="alert alert-info mandatory-optional">
         #advanced
       </span>
@@ -516,7 +517,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    22. Rotate left
+    22. Rotate left ✅
       <span class="alert alert-info mandatory-optional">
         #advanced
       </span>
@@ -528,7 +529,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 
 <h4 class="task">
-    23. Rotate right
+    23. Rotate right ✅
       <span class="alert alert-info mandatory-optional">
         #advanced
       </span>
