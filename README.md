@@ -541,4 +541,11 @@ typedef struct binary_tree_s binary_tree_t;
 </div>
 
 [--LINK PROJECT--](https://intranet.hbtn.io/projects/270)
+ 
+ # Authors 🤖
+
+### Viktor Krill - @ViktorKrill <a href="https://www.twitter.com/Dev_Vikk" rel="nofollow"> <img width="18px" align="center" src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter.svg" style="max-width: 100%;"></a> <a href="https://www.github.com/viktorkrill"> <img width="18px" align="center" src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg" style="max-width: 100%;"></a>
+
+### Manuela Espinoza - @4521Manuela <a href="https://www.twitter.com/4521Manuela" rel="nofollow"> <img width="18px" align="center" src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/twitter.svg" style="max-width: 100%;"></a> <a href="https://www.github.com/Canel420"> <img width="18px" align="center" src="https://raw.githubusercontent.com/rahulbanerjee26/githubAboutMeGenerator/main/icons/github.svg" style="max-width: 100%;"></a>
+ 
 </html>
